@@ -123,6 +123,12 @@ animals.unshift('monkey')
 //console.log(animals)
 
 // Удаление первого элемента массива с возватом его значения
-first = animals.shift() 
-console.log(animals)
-console.log(first)
+//first = animals.shift() 
+//console.log(animals)
+//console.log(first)
+
+// Обьединение массивов
+let furry_Animals = ['Альпака','Лемур','Йети']
+let scaly_Animals =['Удав','Годзилла']
+let furry_and_scaly_animals = furry_Animals.concat(scaly_Animals)
+console.log(furry_and_scaly_animals)
