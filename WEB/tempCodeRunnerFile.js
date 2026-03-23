@@ -1,0 +1,1 @@
+mySecretNumber === chicoGuess

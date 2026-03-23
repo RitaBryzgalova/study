@@ -1,0 +1,58 @@
+.my_block{
+    width: 280px;
+    height: auto;
+    border: 2px solid black;
+    padding: 5px  ;
+    margin:15px ;
+}
+
+.my_block3{
+   width: 300px;
+   height: auto;
+   border: 10px solid pink;
+   padding-left:1px ;
+   margin: 50px ;
+}
+
+.лого{
+    width: 400px;
+    height: auto;
+    border: 2px solid gray ;
+    margin: 15px;
+    padding: auto;
+    
+}
+
+.Телефон{
+    width: 150px;
+    height: auto;
+    border: 2px solid black;
+    margin: 15px;
+    padding: auto;
+    
+}
+
+.Наша_компания{
+    width: 400px ;
+    height: auto;
+    border: 2px solid gray;
+    margin-left:  15px;
+}
+
+.о_нас{
+    width: 150px;
+    height:90px ;
+    border: 2px solid gray;
+    margin: 30px;
+    margin-top: 4px ;
+    padding: auto;
+}
+
+.g2015{
+    width: 595px;
+    height: auto;
+    background-color: black;
+    margin: 15px;
+    padding: auto;
+    border: 2px solid gray;
+}
