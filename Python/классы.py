@@ -267,4 +267,3 @@ class Restarant():
 #rest.set_number_served(132)
 #rest.incremed_number_served(-21)
 #print(f'Обслуженно к концу дня {rest.number}')
-print(3214)
