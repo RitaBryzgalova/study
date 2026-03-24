@@ -164,6 +164,6 @@ let phases = [
 ]
 // Мне выпить еще молочного коктейля?
 //console.log(phases[Math.floor(Math.random()*5)])
+console.log(43124)
 
-console.log(34)
-let = [32,456,345.5]
+
