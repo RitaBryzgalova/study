@@ -131,4 +131,38 @@ animals.unshift('monkey')
 let furry_Animals = ['Альпака','Лемур','Йети']
 let scaly_Animals =['Удав','Годзилла']
 let furry_and_scaly_animals = furry_Animals.concat(scaly_Animals)
-console.log(furry_and_scaly_animals)
+//console.log(furry_and_scaly_animals)
+
+
+// Поиск индекса элемента
+let colors = ['красный','зеленый','синий']
+//console.log(colors.indexOf('синий'))
+
+// Вывод массива в строку 
+let boring_Animals = ['Мартышка','Кот','Рыба','Ящерица']
+//console.log(boring_Animals.join('-'))
+//console.log(boring_Animals.join(' и '))
+
+// Генератор случайных чисел
+//console.log(Math.random()) // random генерирует цисла от 0 до 1
+//console.log(Math.floor(2134.4234))  //floor выделяет целую часть числа
+//console.log(Math.floor(Math.random()*4)) // Генерирует число от 0 до 4 и выделяет целую часть
+
+
+let Ramdom_words = ['Взрыв','Пещера','Принцесса','Карандаш']
+let radom_index = Math.floor(Math.random()*4)
+//console.log(Ramdom_words[radom_index])
+
+
+
+let phases = [
+    'Звучит неплохо',
+    'Да, это определенно надо сделать',
+    'Не думаю, что это хорошая идея',
+    'Может, не сегодня',
+    'Компьютер говорит нет'
+]
+// Мне выпить еще молочного коктейля?
+//console.log(phases[Math.floor(Math.random()*5)])
+
+
