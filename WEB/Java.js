@@ -167,5 +167,7 @@ let phases = [
 console.log(43124)
 let a = 'Первостепеная разработка'
 
-let fix = "Ветка fix"
+let fix = "Ветка fix c изменениями"
+let h = 'должна быть ошибка'
+
 let g = 'Слиянение с main'
