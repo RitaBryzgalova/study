@@ -165,6 +165,7 @@ let phases = [
 // Мне выпить еще молочного коктейля?
 //console.log(phases[Math.floor(Math.random()*5)])
 console.log(43124)
+ HEAD
 let a = 'Первостепеная разработка'
 
 let fix = "Ветка fix"
@@ -172,6 +173,11 @@ let s ='должно ругатся'
 
 let fi = "Ветка fix c изменениями"
 let h = 'должна быть ошибка'
+
+let = [8]
+let = "Второстепенная разработка"
+
+develop
 
 
 let g = 'Слиянение с main'
