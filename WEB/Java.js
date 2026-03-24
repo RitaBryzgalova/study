@@ -166,5 +166,7 @@ let phases = [
 //console.log(phases[Math.floor(Math.random()*5)])
 console.log(43124)
 let = [8]
+let = "Второстепенная разработка"
+
 
 
