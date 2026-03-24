@@ -167,4 +167,4 @@ let phases = [
 console.log(43124)
 let a = 'Первостепеная разработка'
 let fix = "Ветка fix"
-
+let g =32423
