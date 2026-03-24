@@ -165,5 +165,6 @@ let phases = [
 // Мне выпить еще молочного коктейля?
 //console.log(phases[Math.floor(Math.random()*5)])
 console.log(43124)
+let = [8]
 
 
