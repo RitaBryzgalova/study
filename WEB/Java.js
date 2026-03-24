@@ -166,5 +166,6 @@ let phases = [
 //console.log(phases[Math.floor(Math.random()*5)])
 console.log(43124)
 let a = 'Первостепеная разработка'
+
 let fix = "Ветка fix"
-let g =32423
+let g = 'Слиянение с main'
