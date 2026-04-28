@@ -70,11 +70,25 @@
 #coutdown(3)
 
 
-def fact(x):
-    if x == 1:
-        return 1
-    else:
-        return x * fact(x - 1)
-    
-a = fact(5)
-print(a)
+#def fact(x):
+#    if x == 1:
+#        return 1
+#    else:
+#        return x * fact(x - 1)
+#    
+#a = fact(5)
+#print(a)
+
+#arr = [2,4,6]
+#if arr == []:
+#    print('Базовый случай')
+#else:
+#    print(sum(arr))
+
+def sum(list):
+    if list == []:
+        return 0
+    return list[0] + sum(list[1:])
+
+x =[2,4,6]
+sum(x)

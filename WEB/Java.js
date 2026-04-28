@@ -95,7 +95,7 @@
 //['Разрешенно добавлять сообщения','Разрешенно банить пользователей','Разрешенно удалять пользователей']
 
 // Массив
-let fruits = ['яблоко','банан','Апельсин','манго']
+//let fruits = ['яблоко','банан','Апельсин','манго']
 //console.log(fruits[0])
 //console.log(fruits[0]='груша')
 //console.log(fruits)
@@ -168,16 +168,95 @@ console.log(43124)
  HEAD
 let a = 'Первостепеная разработка'
 
-let fix = "Ветка fix"
-let s ='должно ругатся'
+//let fix = "Ветка fix"
+//let s ='должно ругатся'
 
-let fi = "Ветка fix c изменениями"
-let h = 'должна быть ошибка'
+//let fi = "Ветка fix c изменениями"
+//let h = 'должна быть ошибка'
 
-let = [8]
-let = "Второстепенная разработка"
+//let = [8]
+//let = "Второстепенная разработка"
 
-develop
+//develop
 
 
 let g = 'Слиянение с main'
+
+
+
+
+
+
+
+// Создаём массив с именами четырёх студентов
+//const students = ["Анна", "Борис", "Виктор", "Галина"];
+
+// Выводим длину массива
+//console.log("Длина массива:", students.length); // Длина массива: 4
+
+// Выводим последнего студента, используя длину массива
+//console.log("Последний студент:", students[students.length - 1]); // Последний студент: Галина
+
+
+//let fruits = ["яблоко", "банан", "апельсин", "манго", "киви"];
+//let numbers = [10, 20, 30];
+//let mixed = [true, "привет", 42, null, {name: "Анна"}, [1, 2, 3]];
+//let empty = [];
+
+// Определяем длину каждого массива
+//console.log("Длина fruits:", fruits.length);     // 5
+//console.log("Длина numbers:", numbers.length);   // 3
+//console.log("Длина mixed:", mixed.length);       // 6
+//console.log("Длина empty:", empty.length);       // 0
+
+
+
+//let queue = ["Анна", "Иван", "Мария", "Петр"];
+
+// 1. Исходная очередь
+//console.log("1. Исходная очередь:", queue);
+
+// 2. Пришла Елена — в конец очереди (push)
+//queue.push("Елена");
+//console.log("2. После прихода Елены:", queue);
+
+// 3. Анна обслужилась и ушла из начала (shift)
+//queue.shift();
+//console.log("3. После ухода Анны (обслужена):", queue);
+
+// 4. Последний покупатель Пётр ушёл из конца (pop)
+//queue.pop();
+//console.log("4. После ухода Петра (конфликт):", queue);
+
+// 5. Директор прошёл в начало (unshift)
+//queue.unshift("Директор");
+//console.log("5. После прихода Директора в начало:", queue);
+
+// 6. Финальная очередь и её длина
+//console.log("6. Финальная очередь:", queue);
+//console.log("   Длина очереди:", queue.length);
+
+
+
+//let ingredients = ["макароны", "гречку", "картошку", "рис", "овсянку", "капусту"];
+//let actions = ["сварить", "пожарить", "запечь", "смешать с", "посыпать", "полить"];
+//let additions = ["кетчупом", "сыром", "маслом", "зеленью", "соусом", "специями"];
+
+//let randomIngredient = ingredients[Math.floor(Math.random() * ingredients.length)];
+//let randomAction = actions[Math.floor(Math.random() * actions.length)];
+//let randomAddition = additions[Math.floor(Math.random() * additions.length)];
+
+//let randomPhrase = ["Сегодня готовим", randomIngredient, randomAction, randomAddition].join(" ");
+
+//console.log(randomPhrase);
+
+
+
+//let book = {
+//  title: "Мастер и Маргарита",
+//  author: "Михаил Булгаков",
+//  year: 1966
+//};
+
+// Проверим содержимое объекта
+//console.log(book);

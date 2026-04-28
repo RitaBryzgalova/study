@@ -1,0 +1,20 @@
+import psycopg2
+
+try:
+    connection = psycopg2.connect(
+        user = 'postgres',
+        password = '1',
+        host = '127.0.0.1',
+        port='54532',
+        database='rita_db'
+    )
+    cursor = connection.cursor()
+    print('Подключено к rita_db')
+
+except Exception as error:
+    print(f'Ошибка подключения:{error}')
+
+finally:
+    if connection:
+        cursor.close()
+        connection.close()
