@@ -30,12 +30,12 @@
 #descrobe_city(city='Novosybirsk'
 
 
-#def get_formatted_name(first_name,last_name,middle_name =''):
-#    if middle_name:
-#        full_name= f"{first_name} {middle_name} {last_name}"
-#    else:
-#        full_name= f'{first_name} {last_name}'
-#    return full_name.title()
+def get_formatted_name(first_name,last_name,middle_name =''):
+    if middle_name:
+        full_name= f"{first_name} {middle_name} {last_name}"
+    else:
+        full_name= f'{first_name} {last_name}'
+    return full_name.title()
 #musican = get_formatted_name('jimi','hendrix',)
 #print(musican)
 #musican = get_formatted_name('joh','hooker','lee')
@@ -201,18 +201,18 @@
 # print(carr)
 
 
-#def find_unique_words():
-#    print('Введите слова')
-#    text = input()
-#    word_list= text.lower().split()
-#    enique_words = []
-#    for word in word_list:
-#        clear_word = word.strip('.!,')
-#        if word_list.count(word) == 1:
-#            enique_words.append(clear_word)
-#    return clear_word    
-#
-#print(find_unique_words())
+def find_unique_words():
+    print('Введите слова')
+    text = input()
+    word_list= text.lower().split()
+    enique_words = []
+    for word in word_list:
+        clear_word = word.strip('.!,')
+        if word_list.count(word) == 1:
+            enique_words.append(clear_word)
+    return clear_word    
+
+print(find_unique_words())
 
 
 #def code_name(fist_name,last_name):
@@ -283,17 +283,17 @@ print_check(items,55)
 #    print(f"Итого со скидкой {discount}%: {full_price} руб.")
 #    return full_price
 
-#cart={}
-#while True:
-#    print('Напиши название товара')
-#    name = input()
-#    if name == 'q': 
-#        break
-#    print('Напиши цену')
-#    price = int(input())
-#    
-#    cart[name] =price
-#
+cart={}
+while True:
+    print('Напиши название товара')
+    name = input()
+    if name == 'q': 
+        break
+    print('Напиши цену')
+    price = int(input())
+    
+    cart[name] =price
+
 #get_total_bill(10,**cart)
 
 security_list = {"Ivan": 25, "Oleg": 16}
