@@ -1,4 +1,4 @@
-#Тмпорт класса или несколько
+#Импорт класса или несколько
 #from классы import Car,ElectricCar
 #my_new_car = Car('audi','a4','2019')
 #print(my_new_car.get_descriptive_name())
@@ -20,7 +20,7 @@
 #Импорт всего модуля
 #from классы import *
 
-#Импорт модлуля в модуль
+#Импорт модуля в модуль
 #from классы import Car
 #from electric_car import ElectricCar
 #my_beetle = Car('volkswagen','beetle',2019)

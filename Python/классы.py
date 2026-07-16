@@ -267,3 +267,46 @@ class Restarant():
 #rest.set_number_served(132)
 #rest.incremed_number_served(-21)
 #print(f'Обслуженно к концу дня {rest.number}')
+
+
+class Die():
+    def __init__(self,sides=6):
+        self.sides = sides
+
+    def roll_die(self):
+        from random import randint
+        random = randint(1, self.sides)
+        print(random)
+#
+#model = Die(6)
+#for i in range(10):
+#    model.roll_die()
+
+#d20 = Die(sides=20)
+#for i in range(10):
+#    d20.roll_die()
+
+#rand = [2,3,67,42,76,0,73,20,567,324,795,'s','f','a','l','u']
+#from random import choice
+#tiket = []
+#for i in range(4):
+#    tiket.append(choice(rand))
+#print(tiket)
+
+
+from random import choice
+
+tiket = [2,3,67,42,76,0,73,20,567,324,795,'s','f','a','l','u']
+my_tiket = ['s',67,'f',20]
+check = 0
+current_ticket = []
+while current_ticket != my_tiket:
+    current_ticket = []
+    check += 1 
+    for i in range(4):
+        random_element = choice(tiket)
+        current_ticket.append(random_element)
+   
+p = f'Ура! Выигрышный билет: {current_ticket}. Попыток задействовано: {check}'
+print(p)
+

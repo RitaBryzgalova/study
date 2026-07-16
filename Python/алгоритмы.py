@@ -91,4 +91,4 @@ def sum(list):
     return list[0] + sum(list[1:])
 
 x =[2,4,6]
-sum(x)
+print(sum(x))
