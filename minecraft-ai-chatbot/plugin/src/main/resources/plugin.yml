@@ -1,0 +1,15 @@
+name: AI ChatBot
+version: 1.0.0
+main: com.minecraft.aichatbot.AIChatBotPlugin
+description: AI помощник для поиска крафтов в Minecraft модах
+
+commands:
+  aichat:
+    description: Задать вопрос AI ботом
+    usage: /aichat <вопрос>
+    aliases: [ai]
+
+permissions:
+  aichatbot.use:
+    description: Разрешает использовать AI чат бот
+    default: true

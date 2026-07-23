@@ -1,0 +1,39 @@
+# Конфигурация AI ChatBot плагина
+
+# Основные параметры
+enabled: true
+
+# URL backend сервера
+backend-url: "http://localhost:8080"
+
+# Таймауты (в миллисекундах)
+request-timeout: 15000
+connection-timeout: 10000
+
+# Префикс сообщений
+chat-prefix: "[AI]"
+
+# Команды
+commands:
+  # Активировать бота через команду (без префикса в чате)
+  enabled-command: true
+  
+  # Требуемое разрешение
+  required-permission: "aichatbot.use"
+
+# Логирование
+logging:
+  level: "INFO"
+  log-requests: true
+  log-responses: true
+
+# Фильтры
+filters:
+  # Минимальная длина сообщения
+  min-message-length: 3
+  
+  # Максимальная длина сообщения
+  max-message-length: 256
+  
+  # Требуемые ключевые слова (если пусто - все сообщения)
+  required-keywords: []
