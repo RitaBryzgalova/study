@@ -146,8 +146,5 @@
 #            print('не найден файл')
 #        else:
 #            print(f'{check}')
-#
-#doc = ['kurs.txt']
-#for file in doc:
-#    found_word(file)
+
 
